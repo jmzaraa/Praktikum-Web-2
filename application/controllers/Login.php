@@ -45,7 +45,7 @@ class Login extends CI_Controller
       $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert"> <b>Error :</b> Password Salah. </div>');
       redirect('/');
     }
-  } else { //jika user tidak terdaftar //echo "User kadada";
+  } else { //jika user tidak terdaftar
     $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert"> <b>Error :</b> User Tidak Terdaftar. </div>');
     redirect('/');
   }}
@@ -57,10 +57,10 @@ class Login extends CI_Controller
 
   public function logout()
   {
-    //hancurkan semua sesi
     $this->session->sess_destroy();
     redirect(site_url('login'));
   }
+
   public function block()
   {
     $data = array(
