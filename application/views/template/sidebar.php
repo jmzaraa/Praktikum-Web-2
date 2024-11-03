@@ -20,7 +20,7 @@
                                 <a class="nav-link" href="<?php echo site_url('satuan');?>">Satuan</a>
                                 <a class="nav-link" href="<?php echo site_url('supplier');?>">Supplier</a>
                                 <a class="nav-link" href="<?php echo site_url('customer');?>">Customer</a>
-                                <a class="nav-link" href="<?php echo site_url('barang');?>">Barang</a>
+                                <a class="nav-link" href="<?php echo site_url('Barang');?>">Barang</a>
                                 <a class="nav-link" href="<?php echo site_url('user');?>">User</a>
                             </nav>
                         </div>
@@ -49,7 +49,7 @@
                                 <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                     <nav class="sb-sidenav-menu-nested nav">
                                         <a class="nav-link" href="<?php echo site_url('laporan/penjualan');?>">Laporan Penjualan</a>
-                                        <a class="nav-link" href="<?php echo site_url('laporan/barang');?>">Laporan Barang</a>
+                                        <a class="nav-link" href="<?php echo site_url('laporan/Barang');?>">Laporan Barang</a>
                                         <a class="nav-link" href="<?php echo site_url('laporan/stok');?>">Laporan Stok</a>
                                         <a class="nav-link" href="<?php echo site_url('laporan/pembelian');?>">Laporan Pembelian</a>
                                         <a class="nav-link" href="<?php echo site_url('laporan/return');?>">Stok Barang</a>
