@@ -68,4 +68,13 @@ class Barang extends CI_Controller
         $this->Barang_model->delete($id);
         redirect('Barang');
     }
+
+    public function laporan()
+    {
+        $data = array(
+            'title' => 'Tambah Laporan Data Barang',
+            'content' => 'Barang/laporan'
+        );
+        $this->load->view('template/main', $data);
+    }
 }
