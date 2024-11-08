@@ -48,12 +48,14 @@
                                 </a>
                                 <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                     <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="<?php echo site_url('laporan/penjualan');?>">Laporan Penjualan</a>
-                                        <a class="nav-link" href="<?php echo site_url('laporan/Barang');?>">Laporan Barang</a>
+                                        <a class="nav-link" href="<?php echo site_url('Barang/laporan');?>">Laporan Barang</a>
+                                        <a class="nav-link" href="<?php echo site_url('Katagori/laporan');?>">Laporan Kategori</a>
+                                        <a class="nav-link" href="<?php echo site_url('Satuan/laporan');?>">Laporan Satuan</a>
+                                        <a class="nav-link" href="<?php echo site_url('Customer/laporan');?>">Laporan Customer</a>
                                         <a class="nav-link" href="<?php echo site_url('laporan/stok');?>">Laporan Stok</a>
+                                        <a class="nav-link" href="<?php echo site_url('laporan/penjualan');?>">Laporan Penjualan</a>
                                         <a class="nav-link" href="<?php echo site_url('laporan/pembelian');?>">Laporan Pembelian</a>
                                         <a class="nav-link" href="<?php echo site_url('laporan/return');?>">Stok Barang</a>
-                                        <a class="nav-link" href="<?php echo site_url('laporan/customerlap');?>">Customer</a>
                                     </nav>
                                 </div>
                             </nav>

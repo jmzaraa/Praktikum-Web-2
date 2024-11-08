@@ -47,7 +47,7 @@
                 <div class="mb-3">
                     <label for="exampleinputemail1" class="form-label">Costum Ekternal File Controller : Menyertakan report pada file pada file berbeda dan diletakkan difolder view berdasarkan fungsi</label>
                 </div>
-                <button type="submit" class="btn btn-warning">Cetak Laporan</button>
+                <button type="submit" class="btn btn-dark">Cetak Laporan</button>
             </form>
         </div>
     </div>
